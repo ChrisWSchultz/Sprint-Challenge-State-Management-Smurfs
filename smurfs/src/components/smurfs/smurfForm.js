@@ -12,6 +12,10 @@ const SmurfForm = (props) => {
             'age': event.target.age.value,
             'height': event.target.height.value
         });
+
+        event.target.name.value = '';
+        event.target.age.value = '';
+        event.target.height.value ='';
     };
 
     return(
